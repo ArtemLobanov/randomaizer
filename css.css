@@ -1,0 +1,53 @@
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Rubik, sans-serif;
+}
+
+.rand-number {
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100px;
+	height: 150px;
+}
+
+button {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  font-size: 24px;
+  margin-top: 12px;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #205121;
+  background-color: #A1C991;
+  font-size: 24px;
+  margin-top: 12px;
+  outline: none;
+  transition: 0.5s;
+}
+
+#element {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
