@@ -1,1 +1,2 @@
 # randomaizer
+для себя
